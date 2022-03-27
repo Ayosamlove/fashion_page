@@ -1,0 +1,345 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-header1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-header1 .head1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.main-header1 .head1 li {
+  padding-left: 30px;
+}
+
+.main-header1 .head2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.main-header1 .head2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-header1 .head2 a:hover {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.main-header1 .head2 li {
+  padding-right: 30px;
+}
+
+.main-header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main-header3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  background-color: #bb3535;
+  padding: 1%;
+  color: white;
+}
+
+.main-header3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-header3 a:hover {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.main-header3 li {
+  padding-left: 50px;
+}
+
+.main1 {
+  background-image: url("images/woman-eye.jpg");
+  height: 400px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main1-text {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 40%;
+}
+
+.new-main1 {
+  background-image: url("images/hands.jpg");
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new-main1-text {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 40%;
+}
+
+.main-number2-category1 ul {
+  list-style-type: none;
+}
+
+.main-number2-category1 h2 {
+  color: red;
+}
+
+.main2 {
+  background-color: #cccccc;
+}
+
+.new-main2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.main2-sub {
+  max-width: 90%;
+  background-color: white;
+  margin-left: 5%;
+}
+
+.main2 .main2-1 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footers2 {
+  margin-top: 1.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+
+.main-number2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.new-main3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sub-new-main3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sub-new-main3 li {
+  padding: 30px;
+}
+
+.new-main4 {
+  background-color: black;
+  color: white;
+  margin-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.new-main5 {
+  background-color: rgba(43, 41, 41, 0.555);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3%;
+}
+
+.sub-new-main5 {
+  width: 60%;
+  background-color: #993838;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+
+.new-main6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.new-main7 {
+  background-color: black;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2%;
+}
+
+.sub-new-main7-1 {
+  border: 5px solid white;
+  padding: 1%;
+  background-color: white;
+}
+
+.sub-new-main7-2 {
+  border: 5px solid white;
+  padding: 1%;
+  background-color: white;
+}
+
+.sub-new-main7-3 {
+  border: 5px solid white;
+  padding: 1%;
+  background-color: white;
+}
+
+.sub-new-main7-4 {
+  border: 5px solid white;
+  padding: 1%;
+  background-color: white;
+}
+
+.sub-new-main7-5 {
+  border: 5px solid white;
+  padding: 1%;
+  background-color: white;
+}
+
+.product-main2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.new-form {
+  display: inline;
+}
+
+.sub-new-main6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head4 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.head4 a:hover {
+  background-color: aqua;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.head1 ul, a {
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-new-main3 ul {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+
+.sub-new-main3 a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid transparent;
+  background-color: red;
+  padding: 10px;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=styles.css.map */
